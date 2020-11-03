@@ -5,6 +5,8 @@ module.exports = {
     themeConfig: {
         nav: [
             {text: "Guide", link: "/guide/Index.md"}
-        ]
+        ],
+        sidebar: 'auto',
+        lastUpdated: 'Last Updated'
     }
 }
