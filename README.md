@@ -19,7 +19,7 @@ $ npm run dev
 ```
 
 ## Build Static Site
-https://github.com/workflowrepo/sample-doc.git
+Static site can be found in 'site-build' directory.
 ```bash
 $ npm run build
 ```
