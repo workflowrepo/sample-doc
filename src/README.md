@@ -1,60 +1,12 @@
-# Introduction
-
 This is a sample VuePress and node configuration to setup VuePress Documentation Site.
 
-## Install NodeJS (Recomended: NodeVersion >= v12.18.4)
+## Installation
 
-Install NodeJS using [Node Version Manager (nvm)](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-3-%E2%80%94-installing-node-using-the-node-version-manager)
-
-## Install VuePress
-
-```bash
-$ npm install -g vuepress
-```
-
-## Install Dependencies
-
-```bash
-$ npm install
-```
-
-## Run Site in 'Development' Mode
-
-<code-group>
-<code-block title="NPM" active>
-```bash
-$ npm run dev
-```
-</code-block>
-
-<code-block title="YARN">
-```bash
-$ yarn dev
-```
-</code-block>
-</code-group>
-
-## Build Static Site
-
-<code-group>
-<code-block title="NPM" active>
-```bash
-$ npm run build
-```
-</code-block>
-
-<code-block title="YARN">
-```bash
-$ yarn build
-```
-</code-block>
-</code-group>
-
-::: tip
-Static site can be found in 'site-build' directory.
-:::
+Follow [Guide -> Installation](/nav.01.guide/01-Installation.md) document to install dependencies.
 
 ## Getting Started Links
 
 [Markdown](https://vuepressbook.com/tutorial/tutorial2.html)<br/>
+[Technical Diagrams](https://mermaid-js.github.io/mermaid/#/)<br/>
+[Technical Diagrams Live Editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)<br/>
 [VuePress Documentation](https://vuepress.vuejs.org/guide/markdown.html)

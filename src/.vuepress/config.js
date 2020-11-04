@@ -1,12 +1,15 @@
+const { nav, sidebar } = require("vuepress-bar")(
+    `${__dirname}/..`,
+    { maxLevel: 6 }
+)
+
 module.exports = {
     title: 'MyApp',
     description: 'MyApp Developer Documentation',
     dest: './site-build',
     themeConfig: {
-        nav: [
-            {text: "Guide", link: "/guide/Index.md"}
-        ],
-        sidebar: 'auto',
-        lastUpdated: 'Last Updated'
+        nav: [...nav],
+        sidebar,
+        lastUpdated: 'Last Updated',
     }
 }

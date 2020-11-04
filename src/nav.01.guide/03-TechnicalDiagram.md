@@ -1,7 +1,7 @@
-## This is a guide
-Guide content goes here.
+# Technical Diagram
 
-## Mermaid Diagram
+Using `<mermaid>` tag we can draw technical diagrams in markdown.
+
 <mermaid>
 classDiagram
 Class01 <|-- AveryLongClass : Cool
